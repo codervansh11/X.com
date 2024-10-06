@@ -1,0 +1,20 @@
+.high{
+    position: absolute;
+    bottom: 0px;
+    border-radius: 23px;
+    height: 4px;
+    width: 48px;
+    background-color: rgb(49, 89, 212);
+    left:140px;
+}
+.foryou{
+    position: relative;
+}
+.tops{
+    position: relative;
+}
+.sep{
+   height: 1px;
+   width: 100%;
+   background-color: gray; 
+}

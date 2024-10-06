@@ -9,11 +9,12 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="bg-black text-white">
     <div class="flex container mx-auto">
-        <div class="first  w-1/5">
+        <div class="first w-1/5">
             <div class="sidebar flex-col item-end">
                 <div class="logo  my-4 self-start mx-2 md:mx-16">
 
@@ -85,12 +86,160 @@
                 </ul>
             </div>
         </div>
-        <div class="second  w-1/2">bb</div>
-        <div class="third w-[30%]  hidden md:block"">
+        <div class="second w-1/2 border-[1px] border-gray-700">
+            <div class="tops flex p-3">
+                    <div class="foryou w-1/2 flex justify-center font-bold">
+                    For you
+                </div>
+                <div class="high"></div>
+
+                <div class="following w-1/2 flex items-center justify-center font-bold">Following</div>
+                
+ 
+            </div>
+            <div class="whatishapp flex m-4 p-3 gap-2">
+                <div class="img m-2 w-16">
+
+                    <img class="rounded-full space-x-2" src="https://pbs.twimg.com/profile_images/1776259345002749954/pXSOGobZ_normal.jpg" alt="">
+                </div>
+                <div class="w-[80%] flex-col">
+                    <input class="w-full h-7 my-2 text-xl bg-black text-white" type="text"
+                        placeholder="What is happening?!">
+                    <div class="text-blue-400 flex items-center gap-1 w-full my-4">
+                        <span class="material-symbols-outlined ">
+                            globe_asia
+                        </span>
+                        <span class="font-bold">Everyone can reply</span>
+                    </div>
+                      <hr class=" bg-gray-700 opacity-20">
+                    <div class="flex justify-between p-4">
+
+                        <div class="blueicons flex gap-2 text-blue-400 items-center">
+                            <span class="material-symbols-outlined cursor-pointer">
+                                image
+                            </span>
+                            <span class="material-symbols-outlined cursor-pointer">
+                                gif
+                            </span>
+                            <span class="material-symbols-outlined cursor-pointer">
+                                ballot
+                            </span>
+                            <span class="material-symbols-outlined cursor-pointer">
+                                sentiment_satisfied
+                            </span>
+                            <span class="material-symbols-outlined cursor-pointer">
+                                calendar_month
+                            </span>
+                            <span class="material-symbols-outlined cursor-pointer">
+                                pin_drop
+                            </span>
+                        </div>
+                        <div class="postbtn">
+                            <button
+                                class="bg-[#1d9bf0] px-6 text-sm rounded-full py-2 text-white font-bold">Post</button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="posts">
+                <div class="post">
+                    <div class="flex">
+                        <div class="image m-4">
+                            <img class="w-16 rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1776259345002749954/pXSOGobZ_normal.jpg" alt="">
+                        </div>
+                        <div class="content my-3">
+                            <span class="font-bold hover:underline cursor-pointer text-white">Vansh Sabharwal</span> <span
+                                class="text-gray-500">@Vansh1102 · 6h </span>
+                            <div class="postimg m-2 ml-0"> This is a X.com UI clone built by me to flex my development skills 
+                                hope a FAANG recruiter would hire me xD !
+                            </div>
+                            <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                                <div
+                                    class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined">
+                                        chat_bubble
+                                    </span> 1k
+                                </div>
+                                <div
+                                    class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span> 1k
+                                </div>
+                                <div
+                                    class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined">
+                                        Favorite
+                                    </span> 1k
+                                </div>
+                                <div
+                                    class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span> 1k
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div> 
+                </div>
+                <div class="post">
+                    <div class="flex">
+                        <div class="image m-4">
+                            <img class="w-16 rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1776259345002749954/pXSOGobZ_normal.jpg"
+                                alt="">
+                        </div>
+                        <div class="content my-3">
+                            <span class="font-bold hover:underline cursor-pointer text-white">Vansh Sabharwal</span> <span
+                                class="text-gray-500">@Vansh1102 · 6h </span>
+                            <div>Living legend</div>
+                            <div class="postimg m-4 ml-0">
+                                <img class="rounded-xl"
+                                    src="https://pbs.twimg.com/media/GEGqnodacAAoyCO?format=jpg&name=900x900" alt="">
+                            </div>
+                            <div class="icons flex justify-between mx-4 my-4 text-sm text-gray-600">
+                                <div
+                                    class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined">
+                                        chat_bubble
+                                    </span> 1k
+                                </div>
+                                <div
+                                    class="icon flex items-center justify-center hover:text-green-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span> 1k
+                                </div>
+                                <div
+                                    class="icon flex items-center justify-center hover:text-pink-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined">
+                                        Favorite
+                                    </span> 1k
+                                </div>
+                                <div
+                                    class="icon flex items-center justify-center hover:text-blue-500 hover:bg-gray-900 hover:rounded-full p-1 hover:cursor-pointer">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span> 1k
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+        <div class="third w-[30%] hidden md:block">
             <div class="search m-3">
                 <input type="text" class="w-[90%] rounded-full bg-[#16181c] px-8 py-3 " placeholder="Search">
             </div>
-            <div class="card flex-col m-3 w-[85%] h-[25%] border-[1px] border-gray-600  rounded-lg p-2 pl-3 ">
+            <div class="card flex-col m-3 w-[85%] h-[15%] border-[1px] border-gray-600  rounded-lg p-2 pl-3 ">
                 <h2 class="font-bold text-lg ">Subscribe to Premium</h2>
                 <p class="mt-[2px]">Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
                 <button class="hidden md:block bg-[#1d9bf0] px-5 font-bold text-center text-md rounded-full py-1 m-1 mt-2 text-white cursor-pointer hover:bg-[#1d9cf0be]">Subscribe</button>
